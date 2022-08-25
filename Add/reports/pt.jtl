@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="14" it="0" lt="0" ct="0" ts="1661428188325" s="true" lb="PreProcessor" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="45" ct="28" ts="1661428188412" s="true" lb="instant-token" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="602" sby="1752" ng="1" na="1">
+  <java.net.URL>http://192.168.0.206/axon-node/auth/instant_token</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1661428188497" s="true" lb="login" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="1207" sby="733" ng="1" na="1">
+  <java.net.URL>http://192.168.0.206/axon-node/auth/login</java.net.URL>
+</httpSample>
+<sample t="14" it="0" lt="0" ct="0" ts="1661428188528" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="12" it="0" lt="0" ct="0" ts="1661428188661" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188673" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188680" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2055" sby="0" ng="1" na="1"/>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1661428188682" s="true" lb="add-&lt;noun&gt;-AC-0" rc="200" rm="003: AC-0:  Expected testcase to PASS and it did ::: TEST PASSED&#xa;Hospital Added Successfully" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="380" sby="1222" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="6" it="0" lt="0" ct="0" ts="1661428188699" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188706" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="4" it="0" lt="0" ct="0" ts="1661428188715" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188720" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188722" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2157" sby="0" ng="1" na="1"/>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1661428188723" s="true" lb="add-&lt;noun&gt;-AC-1" rc="200" rm="004: AC-1:  Expected test to fail and it did, got responseCode 400::: TEST PASSED, Setting Response to OK&#xa;The request cannot be fulfilled due to invalid hospital code" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="386" sby="1210" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188735" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188738" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188747" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="4" it="0" lt="0" ct="0" ts="1661428188750" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188754" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2142" sby="0" ng="1" na="1"/>
+<httpSample t="9" it="0" lt="9" ct="2" ts="1661428188755" s="true" lb="add-&lt;noun&gt;-AC-2" rc="200" rm="004: AC-2:  Expected test to fail and it did, got responseCode 400::: TEST PASSED, Setting Response to OK&#xa;The request cannot be fulfilled due to invalid hospital code" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="390" sby="1201" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188767" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188769" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188777" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188780" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188781" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2143" sby="0" ng="1" na="1"/>
+<httpSample t="10" it="0" lt="9" ct="1" ts="1661428188782" s="true" lb="add-&lt;noun&gt;-AC-3" rc="200" rm="004: AC-3:  Expected test to fail and it did, got responseCode 400::: TEST PASSED, Setting Response to OK&#xa;The request cannot be fulfilled due to invalid hospital code" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="384" sby="1202" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188794" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188795" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188806" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188809" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188810" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2147" sby="0" ng="1" na="1"/>
+<httpSample t="8" it="0" lt="8" ct="1" ts="1661428188811" s="true" lb="add-&lt;noun&gt;-AC-4" rc="200" rm="004: AC-4:  Expected test to fail and it did, got responseCode 400::: TEST PASSED, Setting Response to OK&#xa;The request cannot be fulfilled due to invalid hospital name" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="402" sby="1206" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188822" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188823" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188829" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188831" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188833" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2131" sby="0" ng="1" na="1"/>
+<httpSample t="10" it="0" lt="9" ct="2" ts="1661428188833" s="true" lb="add-&lt;noun&gt;-AC-5" rc="200" rm="004: AC-5:  Expected test to fail and it did, got responseCode 400::: TEST PASSED, Setting Response to OK&#xa;The request cannot be fulfilled due to invalid hospital name" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="386" sby="1190" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188845" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188847" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188855" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188857" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188859" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2129" sby="0" ng="1" na="1"/>
+<httpSample t="9" it="0" lt="8" ct="2" ts="1661428188859" s="true" lb="add-&lt;noun&gt;-AC-6" rc="200" rm="004: AC-6:  Expected test to fail and it did, got responseCode 400::: TEST PASSED, Setting Response to OK&#xa;The request cannot be fulfilled due to invalid hospital name" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="384" sby="1188" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188870" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188872" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="4" it="0" lt="0" ct="0" ts="1661428188881" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188891" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="4" it="0" lt="0" ct="0" ts="1661428188900" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188904" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188906" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2086" sby="0" ng="1" na="1"/>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1661428188906" s="true" lb="add-&lt;noun&gt;-AC-9" rc="200" rm="003: AC-9:  Expected testcase to PASS and it did ::: TEST PASSED&#xa;Hospital Added Successfully" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="381" sby="1178" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188920" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188921" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188928" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188930" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188931" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2108" sby="0" ng="1" na="1"/>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1661428188931" s="true" lb="add-&lt;noun&gt;-AC-10" rc="200" rm="003: AC-10:  Expected testcase to PASS and it did ::: TEST PASSED&#xa;Hospital Added Successfully" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="380" sby="1192" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188944" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="0" ct="0" ts="1661428188945" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188952" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188954" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188955" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2140" sby="0" ng="1" na="1"/>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1661428188955" s="true" lb="add-&lt;noun&gt;-AC-11" rc="200" rm="001: AC-11 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:&#xa;Hospital Added Successfully Check ResponseCode" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="380" sby="1180" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188965" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428188966" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188973" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188975" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188976" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2099" sby="0" ng="1" na="1"/>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1661428188977" s="true" lb="add-&lt;noun&gt;-AC-12" rc="200" rm="001: AC-12 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:&#xa;Invalid Hospital Name Check ResponseCode" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="393" sby="1145" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188986" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188987" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188993" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428188994" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428188995" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2123" sby="0" ng="1" na="1"/>
+<httpSample t="15" it="0" lt="15" ct="2" ts="1661428188995" s="true" lb="add-&lt;noun&gt;-AC-13" rc="200" rm="001: AC-13 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:&#xa;Hospital exists already" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="401" sby="1192" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428189012" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1661428189012" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189019" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189020" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428189021" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2150" sby="0" ng="1" na="1"/>
+<httpSample t="7" it="0" lt="7" ct="2" ts="1661428189022" s="true" lb="add-&lt;noun&gt;-AC-14" rc="200" rm="001: AC-14 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:&#xa;Hospital exists already" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="401" sby="1192" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428189031" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="5" it="0" lt="0" ct="0" ts="1661428189032" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189040" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189041" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428189042" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2226" sby="0" ng="1" na="1"/>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1661428189042" s="true" lb="add-&lt;noun&gt;-AC-15" rc="200" rm="002: AC-15: Expected message Record added successfully, got Record added successfully::: TEST PASSED, Setting Response to OK&#xa;Check Success Message" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="381" sby="1226" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428189057" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189058" s="true" lb="Generate Variable Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="6" it="0" lt="0" ct="0" ts="1661428189063" s="true" lb="Configure Null Data" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189069" s="true" lb="Configure Response Assertion" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1661428189070" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="2116" sby="0" ng="1" na="1"/>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1661428189071" s="true" lb="add-&lt;noun&gt;-AC-16" rc="200" rm="002: AC-16: Expected message Invalid Hospital Name, got Invalid Hospital Name::: TEST PASSED, Setting Response to OK&#xa;Check Failure Message" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="393" sby="1145" ng="1" na="1">
+  <assertionResult>
+    <name>Terminate on Readiness Failure</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.0.206/axon-node/admin/masters/hospitals/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1661428189079" s="true" lb="Write Data File" rc="200" rm="OK" tn="[TG] &lt;project&gt;-Master-FT 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+
+</testResults>

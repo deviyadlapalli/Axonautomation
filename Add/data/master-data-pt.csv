@@ -1,0 +1,2 @@
+testId,hospitalName,hospitalCode,contactPerson,contactNumber,email,address,state,pincode,expectedResult,expectedResponseCode,execute,testType,comments
+AC-0,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,PASS,,YES,READINESS,Hospital Added Successfully

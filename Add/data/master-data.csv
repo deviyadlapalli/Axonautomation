@@ -1,0 +1,18 @@
+testId,hospitalName,hospitalCode,contactPerson,contactNumber,email,address,state,pincode,expectedResult,expectedResponseCode,expectedMessage,execute,testType,comments
+AC-0,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,PASS,,,YES,READINESS,Hospital Added Successfully
+AC-1,AnamayyaHospitals,An,John,9898989899,John@abcd.com,ChandaNagar,Andhra Pradesh,533434,FAIL,,,YES,READINESS,The request cannot be fulfilled due to invalid hospital code
+AC-2,MijoramHospitals,mjr45$,Mohan,9898989900,mohaan@abcd.com,Tjnagar,Goa,533435,FAIL,,,YES,READINESS,The request cannot be fulfilled due to invalid hospital code
+AC-3,BapanahHospitals,,Bapan,9898989901,bapan@abcd.com,bapujinagar,Gujarat,533436,FAIL,,,YES,READINESS,The request cannot be fulfilled due to invalid hospital code
+AC-4,Jeevanai1Hospitals,jvn,Jeevan,9898989901,jeevan@abcd.com,jublinagar,Assam,533436,FAIL,,,YES,READINESS,The request cannot be fulfilled due to invalid hospital name
+AC-5,NM,NMN,Nayar,9898989902,nayar@abcd.com,nagjunction,Sikkim,533437,FAIL,,,YES,READINESS,The request cannot be fulfilled due to invalid hospital name
+AC-6,,BLK,Nayar,9898989903,nayar@abcd.com,nagjunction,Sikkim,533438,FAIL,,,YES,READINESS,The request cannot be fulfilled due to invalid hospital name
+AC-7,AUTOGEN,Anm,,,,,,,PASS,,,NO,READINESS,This Test Should be Skipped
+AC-8,AUTOGEN,APL,Shyam,9090ABCD,Shyam@abcd.com,Tnagar colony,,,FAIL,400,,NO,READINESS,Invalid phone number-SKIPPING till it gets fixed
+AC-9,AUTOGEN,GND,,,,,Andhra Pradesh,,PASS,,,YES,READINESS,Hospital Added Successfully
+AC-10,AUTOGEN,jjh1,jayam,,,kadaithali,Kerala,533438,PASS,,,YES,READINESS,Hospital Added Successfully
+AC-11,AUTOGEN,amr2,jwala,9898988803,,,,,PASS,200,,YES,READINESS,Hospital Added Successfully Check ResponseCode
+AC-12,Mahe#$%12,mah,,,,,,,FAIL,400,,YES,READINESS,Invalid Hospital Name Check ResponseCode
+AC-13,ApoloHospitals,APL,Shyam,9898989898,Shyam@abcd.com,Tnagar colony,,,FAIL,400,,YES,READINESS,Hospital exists already
+AC-14,ApoloHospitals,APL,Shyam,9898989898,Shyam@abcd.com,Tnagar colony,,,FAIL,400,,YES,READINESS,Hospital exists already
+AC-15,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,AUTOGEN,PASS,,Record added successfully,YES,READINESS,Check Success Message
+AC-16,Mahe#$%12,mah,,,,,,,FAIL,,Invalid Hospital Name,YES,READINESS,Check Failure Message
